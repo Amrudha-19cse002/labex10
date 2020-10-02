@@ -26,8 +26,8 @@ public class binaryfiles {
         // TODO code application logic here
         FileInputStream fio=null;
         FileOutputStream fou=null;
-        fio=new FileInputStream("input.jpeg");
-        fou=new FileOutputStream("output.jpeg");
+        fio=new FileInputStream("input.jpg");
+        fou=new FileOutputStream("output.jpg");
         int i;
         while((i=fio.read())!=-1)
             fou.write(i);
